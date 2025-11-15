@@ -13,6 +13,9 @@ const profileName = "Amit Saini";
 const pageTitle = "Amit Saini | Full-Stack Developer";
 const pageDescription =
   "Full-stack Next.js developer crafting performant, user-centric web experiences with React, TypeScript, and modern tooling.";
+const contactPhone = "+91 95211 53320";
+const contactEmail = "amitsainiwork9@gmail.com";
+const contactLocation = "Jaipur, Rajasthan, India";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -38,15 +41,18 @@ export const metadata: Metadata = {
     "Amit Saini Software Engineer",
     "Amit Saini Freelancer",
     "Amit Saini Frontend Developer",
+    "Jaipur Full Stack Developer",
+    "Rajasthan Software Engineer",
+    "India Next.js Specialist",
   ],
   authors: [{ name: profileName, url: "https://www.linkedin.com/in/amitsaini9086" }],
   creator: profileName,
   publisher: profileName,
   category: "technology",
   formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
+    email: true,
+    address: true,
+    telephone: true,
   },
   alternates: {
     canonical: siteUrl,
@@ -100,6 +106,9 @@ export const metadata: Metadata = {
     "profile:first_name": "Amit",
     "profile:last_name": "Saini",
     "profile:username": "amitsaini-9",
+    "contact:phone_number": contactPhone,
+    "contact:email": contactEmail,
+    "contact:address": contactLocation,
   },
 };
 
