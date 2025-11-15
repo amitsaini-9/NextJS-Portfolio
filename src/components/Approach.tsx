@@ -1,7 +1,16 @@
-import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
+import dynamic from "next/dynamic";
+import type { CanvasRevealEffect as CanvasRevealEffectType } from "@/components/ui/canvas-reveal-effect";
 import { AceternityIcon } from "./ui/AceternityIcon";
 import { Card } from "./ui/Card";
 import { approach } from "@/Data";
+
+const CanvasRevealEffect = dynamic<typeof CanvasRevealEffectType>(
+  () =>
+    import("@/components/ui/canvas-reveal-effect").then(
+      (mod) => mod.CanvasRevealEffect
+    ),
+  { ssr: false }
+);
 
 export default function Approach() {
   return (
