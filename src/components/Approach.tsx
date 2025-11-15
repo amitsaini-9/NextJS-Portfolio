@@ -1,3 +1,5 @@
+"use client";
+
 import dynamic from "next/dynamic";
 import type { CanvasRevealEffect as CanvasRevealEffectType } from "@/components/ui/canvas-reveal-effect";
 import { AceternityIcon } from "./ui/AceternityIcon";
