@@ -1,5 +1,3 @@
-import { link } from "fs";
-
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -131,12 +129,6 @@ export const testimonials = [
     name: "Amit Saini",
     title: "Upwork",
   },
-  {
-    quote:
-      "Collaborating with Amit Saini was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Amit Saini's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Amit Saini is the ideal partner.",
-    name: "Amit Saini",
-    title: "Upwork",
-  },
 ];
 
 export const companies = [
@@ -175,8 +167,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Aspiring Full-Stack Web Developer",
-    desc: "I am a passionate Full-Stack Web Developer with expertise in React, Next.js, and the MERN stack, actively seeking opportunities to apply my skills in building scalable and high-performance web applications",
+    title: "SDE Intern • Photozoot AI (Intap Studios)",
+    desc: "June 2025 – Present · Accelerating product delivery by redesigning photozoot.in, shipping cross-functional enhancements, and rapidly expanding my AI tooling expertise while leveling up learning velocity and execution maturity.",
     className: "md:col-span-2",
     thumbnail: "./exp1.svg",
   },
