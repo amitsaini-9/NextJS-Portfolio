@@ -103,6 +103,7 @@ export const metadata: Metadata = {
     shortcut: ["/facivon.ico"],
   },
   other: {
+    "google-adsense-account": "ca-pub-6830060544242264",
     "profile:first_name": "Amit",
     "profile:last_name": "Saini",
     "profile:username": "amitsaini-9",
